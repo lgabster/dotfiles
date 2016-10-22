@@ -47,6 +47,15 @@ function doIt() {
 		--exclude "LICENSE" \
 		-avh --no-perms . ~;
 	source ~/.zshrc;
+
+
+	# Kill affected applications
+	for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
+		"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
+		"Photos" "Safari" "SystemUIServer" "iCal"; do
+		killall "${app}" &> /dev/null
+	done
+	echo "Done. Note that some of these changes require a logout/restart to take effect."
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

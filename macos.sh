@@ -592,14 +592,3 @@ defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls
 #defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
 
-###############################################################################
-# Kill affected applications                                                  #
-###############################################################################
-
-for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
-	"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
-	"Photos" "Safari" "SystemUIServer" "Terminal" "iCal"; do
-	killall "${app}" &> /dev/null
-done
-echo "Done. Note that some of these changes require a logout/restart to take effect."
-

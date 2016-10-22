@@ -1,0 +1,10 @@
+[user]
+	name = lgabster
+	email = lgabster@gmail.com
+[credential]
+	helper = osxkeychain
+[mergetool "sublime"]
+	cmd = subl -w $MERGED
+	trustExitCode = false
+[merge]
+	tool = sublime
