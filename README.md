@@ -8,3 +8,5 @@
 
 ### zsh plugins:
 `plugins=(git, git-extras, brew, docker, npm, osx, sudo, web-search, fuck)`
+
+### [Sublime](https://github.com/lgabster/macOS-install/tree/master/sublime)
