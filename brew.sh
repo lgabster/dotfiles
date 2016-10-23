@@ -66,6 +66,7 @@ brew cask install betterzipql
 brew cask install webpquicklook
 brew cask install suspicious-package
 brew cask install docker-toolbox
+brew cask install spotify
 
 # Remove outdated versions from the cellar.
 brew cleanup
