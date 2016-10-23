@@ -7,3 +7,6 @@
 `git clone https://github.com/powerline/fonts.git && cd fonts && ./install.sh cd .. && rm -rf fonts`
 
 ### [Sublime](https://github.com/lgabster/macOS-install/tree/master/sublime)
+
+### [Screensaver](https://github.com/nemesit/SwiftBubble)
+
